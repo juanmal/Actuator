@@ -18,7 +18,7 @@ public class CustomActuator {
 	private List<String> listado = new ArrayList<>();
 	
 	@ReadOperation
-	public List<String> clientes() {
+	public List<String> getLista() {
 		return listado;
 	}
 	

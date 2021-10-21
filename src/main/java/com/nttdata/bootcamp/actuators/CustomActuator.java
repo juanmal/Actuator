@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Endpoint(id = "estados")
-public class CustomEndpoint {
+public class CustomActuator {
 	
 	private List<String> listado = new ArrayList<>();
 	
